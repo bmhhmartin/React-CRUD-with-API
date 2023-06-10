@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+img {
+    border: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Pushster&family=Righteous&display=swap');
+
+/*font-family ends*/
+
+:root {
+    --primary-color: #00b01d;
+    --secondary-color: #d1d1d1;
+    --text-color: #464646;
+    --white-color: #ffffff;
+    --red-color: #ff1c00;
+    --blue-color: #1da1f2;
+}
+
+.card {
+    position: relative;
+}
+
+.card .button_part {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.card .button_part button {
+    margin-left: 5px;
+}
+
+.showCard {
+    text-align: center;
+}
+
+.showCard img {
+    display: inline-block;
+    max-width: 200px;
+}
+
+.showCard h3 {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.showCard h4 {
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--red-color);
+    margin: 10px 0px;
+}
+
+.showCard h5 {
+    font-size: 20px;
+    color: var(--blue-color);
+    margin-bottom: 10px;
+}
+
+.showCard h6 {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.loginForm{
+    max-width: 500px;
+    margin: 50px auto;
+    border: 1px solid var(--secondary-color);
+    padding: 30px;
+    background: #ededed;
+}
